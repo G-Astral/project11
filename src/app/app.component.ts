@@ -10,11 +10,6 @@ import {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // text = "test";
-  // deleteText(){
-  //   this.text = "";
-  // }
-
   title = '';
   stickers: any[] = [];
   now: any;
