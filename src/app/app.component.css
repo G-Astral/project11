@@ -1,0 +1,74 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.sticker{
+  width: 300px;
+  height: 300px;
+  background-color: chartreuse;
+  box-shadow: 2px 2px 30px black;
+  padding: 10px;
+  position: relative;
+}
+
+h1{
+  margin: 0;
+}
+
+.deleteButton{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  /* background-image: url(remove.png); */
+  background-color: red;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.id{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 1.2em;
+  color: red;
+}
+.date{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-size: 0.8em;
+}
+#title{
+  resize: none;
+  background-color: chartreuse;
+  border: none;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+  height: 1em;
+  overflow: hidden;
+  width: 100%;
+  outline: none;
+  text-decoration: underline;
+}
+.textarea{
+  resize: none;
+  flex-grow: 1;
+  background-color: chartreuse;
+  border: none;
+  font-family: 'Caveat', cursive;
+  outline: none;
+}
+.stickCreatePanel{
+  transition: 0.2s;
+}
+.addButton{
+  width: 6em;
+  height: 3em;
+  border-radius: 1.5em;
+  align-self: end;
+}
