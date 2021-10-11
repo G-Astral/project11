@@ -26,9 +26,9 @@ export class AppComponent {
     // this.idCounter--;
   }
   addNote(title: string, text: string) {
-    let buf = title.split("")
-    buf[0] = buf[0].toUpperCase()
-    title = buf.join("")
+    let buf = title.split("");
+    buf[0] = buf[0].toUpperCase();
+    title = buf.join("");
     this.now = Date.now();
     this.stickers.push({
       title: title,

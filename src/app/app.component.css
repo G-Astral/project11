@@ -24,8 +24,8 @@ h1{
   position: absolute;
   bottom: 5px;
   right: 5px;
-  /* background-image: url(remove.png); */
-  background-color: red;
+  background-image: url(../img/remove.png);
+  /* background-color: red; */
   background-size: contain;
   cursor: pointer;
 }
